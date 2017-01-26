@@ -23,12 +23,12 @@ namespace Renderers
 		public RenderersPage()
 		{
 			InitializeComponent();
-			/*_listView.ItemsSource = new List<string>
-			{
-				"1",
-				"2",
-				"3"
-			};*/
+			//_listView.ItemsSource = new List<string>
+			//{
+			//	"1",
+			//	"2",
+			//	"3"
+			//};
 		}
 
 		protected async override void OnAppearing()

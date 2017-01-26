@@ -4,8 +4,8 @@ using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-//[assembly: ResolutionGroupName("AwesomeEffects")]
-//[assembly: ExportEffect(typeof(NoClickableListViewEffect), "NoClickableListViewEffect")]
+[assembly: ResolutionGroupName("AwesomeEffects")]
+[assembly: ExportEffect(typeof(NoClickableListViewEffect), "NoClickableListViewEffect")]
 namespace Renderers.iOS
 {
 	public class NoClickableListViewEffect : PlatformEffect

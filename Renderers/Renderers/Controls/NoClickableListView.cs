@@ -7,7 +7,7 @@ namespace Renderers
 	{
 		public NoClickableListView()
 		{
-			//Effects.Add(Effect.Resolve("AwesomeEffects.NoClickableListViewEffect"));
+			Effects.Add(Effect.Resolve("AwesomeEffects.NoClickableListViewEffect"));
 		}
 	}
 }

@@ -12,7 +12,7 @@ using Renderers.Droid;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-//[assembly: ExportRenderer(typeof(MyAwesomeView), typeof(MyAwesomeViewRenderer))]
+[assembly: ExportRenderer(typeof(MyAwesomeView), typeof(MyAwesomeViewRenderer))]
 namespace Renderers.Droid
 {
 	public class MyAwesomeViewRenderer : ViewRenderer<MyAwesomeView, Android.Views.View>, TextureView.ISurfaceTextureListener, Android.Hardware.Camera.IPictureCallback

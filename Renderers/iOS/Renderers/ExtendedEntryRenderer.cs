@@ -4,7 +4,7 @@ using Renderers.iOS;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-//[assembly: ExportRenderer(typeof(ExtendedEntry), typeof(ExtendedEntryRenderer))]
+[assembly: ExportRenderer(typeof(ExtendedEntry), typeof(ExtendedEntryRenderer))]
 namespace Renderers.iOS
 {
 	public class ExtendedEntryRenderer : EntryRenderer

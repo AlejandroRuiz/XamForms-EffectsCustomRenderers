@@ -6,8 +6,8 @@ using Renderers.Droid;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-//[assembly: ResolutionGroupName("AwesomeEffects")]
-//[assembly: ExportEffect(typeof(NoClickableListViewEffect), "NoClickableListViewEffect")]
+[assembly: ResolutionGroupName("AwesomeEffects")]
+[assembly: ExportEffect(typeof(NoClickableListViewEffect), "NoClickableListViewEffect")]
 namespace Renderers.Droid
 {
 	public class NoClickableListViewEffect : PlatformEffect

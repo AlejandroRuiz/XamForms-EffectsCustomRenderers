@@ -5,7 +5,7 @@ using Renderers.Droid;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-//[assembly: ExportRenderer(typeof(ExtendedEntry), typeof(ExtendedEntryRenderer))]
+[assembly: ExportRenderer(typeof(ExtendedEntry), typeof(ExtendedEntryRenderer))]
 namespace Renderers.Droid
 {
 	public class ExtendedEntryRenderer : EntryRenderer

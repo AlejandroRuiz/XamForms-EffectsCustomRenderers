@@ -10,7 +10,7 @@ using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-//[assembly: ExportRenderer(typeof(MyAwesomeView), typeof(MyAwesomeViewRenderer))]
+[assembly: ExportRenderer(typeof(MyAwesomeView), typeof(MyAwesomeViewRenderer))]
 namespace Renderers.iOS
 {
 	public class MyAwesomeViewRenderer : ViewRenderer<MyAwesomeView, UIView>
@@ -69,6 +69,8 @@ namespace Renderers.iOS
 				var mainView = new UIView(liveCameraStream.Frame);
 				mainView.Add(liveCameraStream);
 				mainView.Add(takePhotoButton);
+
+
 				SetNativeControl(mainView);
 			}
 
